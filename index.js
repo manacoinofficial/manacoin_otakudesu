@@ -1,3 +1,4 @@
+
 const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
@@ -10,7 +11,7 @@ app.get("/", (req, res) => {
   const keluaran = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -108,7 +109,7 @@ async function getDataAnime() {
   let objek = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -170,7 +171,7 @@ async function getDetailAnime(anime) {
   let objek = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -205,7 +206,7 @@ async function streamNime(url) {
   let objek = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -249,7 +250,7 @@ const searchNime = async (url) => {
   let objek = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -281,7 +282,7 @@ const kategoriList = async () => {
   let objek = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -328,7 +329,7 @@ const genres = async (nama, hal) => {
   let objek = {
     success: true,
     author: "Eksa Dev",
-    sumber: "https://otakudesu.ltd/",
+    sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
