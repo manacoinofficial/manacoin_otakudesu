@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 
   const keluaran = {
     success: true,
-    author: "Eksa Dev",
+    author: "RanimeV3",
     sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
@@ -108,7 +108,7 @@ async function getDataAnime() {
 
   let objek = {
     success: true,
-    author: "Eksa Dev",
+    author: "RanimeV3",
     sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
@@ -170,7 +170,7 @@ async function getDetailAnime(anime) {
 
   let objek = {
     success: true,
-    author: "Eksa Dev",
+    author: "RanimeV3",
     sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
@@ -205,8 +205,8 @@ async function streamNime(url) {
 
   let objek = {
     success: true,
-    author: "Eksa Dev",
-    sumber: "https://otakudesu.cloud/",
+    author: "Ranimev3",
+    sumber: "https://Ranimev1.vercel.app/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -249,8 +249,8 @@ const searchNime = async (url) => {
 
   let objek = {
     success: true,
-    author: "Eksa Dev",
-    sumber: "https://otakudesu.cloud/",
+    author: "RanimeV3",
+    sumber: "https://ranimev1.vercel.app/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -281,8 +281,8 @@ const kategoriList = async () => {
 
   let objek = {
     success: true,
-    author: "Eksa Dev",
-    sumber: "https://otakudesu.cloud/",
+    author: "RanimeV3",
+    sumber: "https://ranimev1.vercel.app/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
     data: {
@@ -328,7 +328,7 @@ const genres = async (nama, hal) => {
 
   let objek = {
     success: true,
-    author: "Eksa Dev",
+    author: "RanimeV3",
     sumber: "https://otakudesu.cloud/",
     pesan:
       "Kami mohon izin kepada pihak otakudesu untuk mengambil data dari web kalian",
